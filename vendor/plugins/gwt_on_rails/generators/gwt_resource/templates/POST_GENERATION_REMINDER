@@ -1,0 +1,2 @@
+
+*** Remember to run db:migrate in order to sync your GWT client model with your ActiveRecord model.

@@ -1,0 +1,40 @@
+8
+
+dir
+9
+http://gwt-on-rails.googlecode.com/svn/trunk/gwt_on_rails/templates
+http://gwt-on-rails.googlecode.com/svn
+
+
+
+2008-01-18T18:10:50.978855Z
+9
+jon.r.crosby
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d1f89fe-b242-0410-b76b-e1e574a953e5
+
+resource_base_template.rb
+file
+
+
+
+
+2008-06-21T02:51:09.000000Z
+5d312b4cdc6d0effc2df60a2775549b5
+2008-01-18T18:10:50.978855Z
+9
+jon.r.crosby
+

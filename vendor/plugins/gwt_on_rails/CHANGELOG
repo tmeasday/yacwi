@@ -1,0 +1,11 @@
+1/18/08:
+- Added utility functions to resource/model objects related to property change support
+1/17/08:
+- Bundled GWTx
+- Added property change support for resource/model objects
+1/5/08:
+- Changed entry point class to use conventional Java four-space indentation
+- Fixed path issue with public/gwt directory in client view template
+- Fixed issue with hidden directory exclusion in GWT resource migration
+1/1/08:
+- First public release

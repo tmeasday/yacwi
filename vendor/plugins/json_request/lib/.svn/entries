@@ -1,0 +1,40 @@
+8
+
+dir
+268
+http://labnotes.org/svn/public/ruby/rails_plugins/json_request/lib
+http://labnotes.org/svn/public
+
+
+
+2007-12-12T05:21:12.009156Z
+258
+assaf
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b757b4cc-fe04-0410-8fec-c912f6db8c99
+
+json_request.rb
+file
+
+
+
+
+2008-06-21T02:54:20.000000Z
+20815ddde6e155af5ba527231b535432
+2007-12-12T05:21:12.009156Z
+258
+assaf
+

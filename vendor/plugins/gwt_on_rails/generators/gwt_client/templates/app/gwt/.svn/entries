@@ -1,0 +1,58 @@
+8
+
+dir
+9
+http://gwt-on-rails.googlecode.com/svn/trunk/gwt_on_rails/generators/gwt_client/templates/app/gwt
+http://gwt-on-rails.googlecode.com/svn
+
+
+
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d1f89fe-b242-0410-b76b-e1e574a953e5
+
+shell_template.rb
+file
+
+
+
+
+2008-06-21T02:51:07.000000Z
+4e8bd7cbfe3efe88ec07e3f7ccb19a2e
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+compile_template.rb
+file
+
+
+
+
+2008-06-21T02:51:07.000000Z
+bef8165efb140811d5cc587dce9d6e8b
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+lib
+dir
+
+src
+dir
+

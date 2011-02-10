@@ -1,0 +1,43 @@
+8
+
+dir
+9
+http://gwt-on-rails.googlecode.com/svn/trunk/gwt_on_rails/generators/gwt_client/templates/app/gwt/src
+http://gwt-on-rails.googlecode.com/svn
+
+
+
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d1f89fe-b242-0410-b76b-e1e574a953e5
+
+config_template.rb
+file
+
+
+
+
+2008-06-21T02:51:07.000000Z
+cd4e156e957553c05bc8b7bbd291264e
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+client
+dir
+

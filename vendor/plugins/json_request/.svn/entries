@@ -1,0 +1,82 @@
+8
+
+dir
+268
+http://labnotes.org/svn/public/ruby/rails_plugins/json_request
+http://labnotes.org/svn/public
+
+
+
+2007-12-12T05:39:32.999287Z
+259
+assaf
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b757b4cc-fe04-0410-8fec-c912f6db8c99
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-06-21T02:54:20.000000Z
+ebac6527b15c7a4caa9ca097e753ca3f
+2007-12-12T05:21:12.009156Z
+258
+assaf
+
+init.rb
+file
+
+
+
+
+2008-06-21T02:54:20.000000Z
+d0e31499491749904ddb41a4297191c9
+2007-12-12T05:21:12.009156Z
+258
+assaf
+
+lib
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-06-21T02:54:20.000000Z
+4c90c8d95767fcaee38b346a93c6dd29
+2007-12-12T05:21:12.009156Z
+258
+assaf
+
+README
+file
+
+
+
+
+2008-06-21T02:54:20.000000Z
+72bded5e12a10783d5cbe71555e37a1a
+2007-12-12T05:39:32.999287Z
+259
+assaf
+

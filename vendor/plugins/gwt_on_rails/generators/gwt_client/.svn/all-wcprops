@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/trunk/gwt_on_rails/generators/gwt_client
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/gwt_on_rails/generators/gwt_client/USAGE
+END
+gwt_client_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8/trunk/gwt_on_rails/generators/gwt_client/gwt_client_generator.rb
+END

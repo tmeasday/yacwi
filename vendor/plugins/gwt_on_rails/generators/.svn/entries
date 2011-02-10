@@ -1,0 +1,34 @@
+8
+
+dir
+9
+http://gwt-on-rails.googlecode.com/svn/trunk/gwt_on_rails/generators
+http://gwt-on-rails.googlecode.com/svn
+
+
+
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d1f89fe-b242-0410-b76b-e1e574a953e5
+
+gwt_client
+dir
+
+gwt_resource
+dir
+

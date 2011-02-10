@@ -1,0 +1,8 @@
+./script/generate gwt_resource ActiveRecordModelName GwtClientName
+
+Example: script/generate gwt_resource Project dashboard
+
+This generates Project.java which extends ProjectBase.java, placing them both
+under app/gwt/dashboard/src/dashboard/client/resource. ProjectBase.java will
+be regenerated after each ActiveRecord migration.
+

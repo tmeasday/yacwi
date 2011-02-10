@@ -1,0 +1,45 @@
+
+===============================================================================
+
+Your GWT client has been generated.
+
+To compile:
+
+> rake your_gwt_client_name:compile
+
+To run in "hosted" mode:
+
+> rake your_gwt_client_name:hosted
+
+After your first compile, you can simply refresh the hosted mode browser to
+pick up new source changes.
+
+To clean:
+
+> your_gwt_client_name:clean
+
+The source is in app/gwt/your_gwt_client_name.
+
+The compiled code will appear under public/gwt/YourGwtModuleName
+i.e public/gwt/dashboard.Dashboard
+
+In order to use the included GWT-REST module with the default Rails
+scaffolding, check out the json_request plugin from Labnotes:
+
+http://blog.labnotes.org/2007/12/11/json_request-handling-json-request-in-rails-20/
+
+===============================================================================
+
+Migrations have also been extended to keep a client-side object in sync with
+your ActiveRecord migrations.
+
+Just generate a stub client-side resource and your usual migrations will keep
+everything in sync:
+
+> script/generate gwt_resource RailsModelName gwt_client_name
+> rake db:migrate
+
+The above will generate RailsModelNameBase and a stub, RailsModelName
+that extends this. The Base class will be recreated with each migration, adding
+or removing properties along with your Rails models. The code can be found
+under app/gwt/your_gwt_client_name/src/yourgwtpackagename/client/resource.

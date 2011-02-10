@@ -1,0 +1,38 @@
+<p>
+  <b>Calendar:</b>
+  <%=h @event.calendar_id %>
+</p>
+
+<p>
+  <b>Summary:</b>
+  <%=h @event.summary %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%=h @event.location %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%=h @event.notes %>
+</p>
+
+<p>
+  <b>Start:</b>
+  <%=h @event.start %>
+</p>
+
+<p>
+  <b>End:</b>
+  <%=h @event.end %>
+</p>
+
+<p>
+  <b>Uid:</b>
+  <%=h @event.uid %>
+</p>
+
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

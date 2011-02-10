@@ -1,0 +1,71 @@
+GWT on Rails
+-------------------------------------------------------------------------------
+Copyright (c) 2007, 2008 Jon Crosby, released under the MIT license.
+http://code.google.com/p/gwt-on-rails/
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Bundled GWTx module is Apache 2.0 licensed and authored by Sandy McArthur.
+http://code.google.com/p/gwtx/
+-------------------------------------------------------------------------------
+
+GWT on Rails integrates GWT client side compiled JavaScript development
+with Rails REST web services by providing four things:
+
+1) A GWT client generator
+2) A GWT model generator
+3) An ActiveRecord extension to keep GWT models in sync with ActiveRecord models
+4) The GWT-REST module (see http://code.google.com/p/gwt-rest/)
+
+-------------------------------------------------------------------------------
+Using the Client Generator and Rake Support
+-------------------------------------------------------------------------------
+
+To build a JavaScript REST client for your app using GWT, do the
+following:
+
+1) Install the JSON Request plugin from Labnotes to make your life easier:
+
+http://blog.labnotes.org/2007/12/11/json_request-handling-json-request-in-rails-20/
+
+2) Generate the client, passing along the name and the location of your
+   GWT libs:
+> script/generate gwt_client dashboard /Users/jdoe/java_libs/gwt-mac-1.4.61
+
+3) Compile it:
+> rake dashboard:compile
+
+4) Test it in "Hosted Mode" (see GWT docs for more on this):
+> rake dashboard:hosted
+
+From this point forward, you can click the "Refresh" button in the Hosted Mode
+browser to recompile updated Java code.
+
+The above steps will generate a "gwt" tree under RAILS_ROOT/app that will house
+all GWT clients for your Rails application. Compiled JavaScript output will
+appear under public/gwt and follows the Java/GWT convention of requiring a
+package for each class (i.e. "dashboard" is housed in "dashboard.Dashboard").
+
+-------------------------------------------------------------------------------
+Using Migrations to Manage GWT Client Resources/Models
+-------------------------------------------------------------------------------
+
+To use an ActiveRecord "Project" model on the client side, do the following:
+
+1) Generate the GWT model/resource
+> script/generate gwt_resource Project dashboard
+
+2) Sync it
+> rake db:migrate
+
+The above will produce two classes, Project and ProjectBase in the "resources"
+package of your GWT client tree. ProjectBase matches your ActiveRecord model
+and will be regenerated with each migration. Project extends ProjectBase and
+can thus be used to hold custom code.
+
+-------------------------------------------------------------------------------
+
+The use of GWT-REST to manage collections of resources on the client side will
+be documented as part of the independent GWT-REST Google Code project:
+
+http://code.google.com/p/gwt-rest/

@@ -1,0 +1,18 @@
+<p>
+  <b>User:</b>
+  <%=h @calendar.user_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @calendar.name %>
+</p>
+
+<p>
+  <b>Uid:</b>
+  <%=h @calendar.uid %>
+</p>
+
+
+<%= link_to 'Edit', edit_calendar_path(@calendar) %> |
+<%= link_to 'Back', calendars_path %>

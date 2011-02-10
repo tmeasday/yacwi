@@ -1,0 +1,54 @@
+8
+
+dir
+9
+http://gwt-on-rails.googlecode.com/svn/trunk/gwt_on_rails/generators/gwt_client/templates/app/gwt/lib
+http://gwt-on-rails.googlecode.com/svn
+
+
+
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d1f89fe-b242-0410-b76b-e1e574a953e5
+
+gwtx.jar
+file
+
+
+
+
+2008-06-21T02:51:06.000000Z
+e8f9ba30ad880a06282b38b9798d3c0c
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+has-props
+
+gwt-rest.jar
+file
+
+
+
+
+2008-06-21T02:51:06.000000Z
+d47b83664a3c179eb6df07410ae35150
+2008-01-02T05:44:29.716142Z
+2
+jon.r.crosby
+has-props
+

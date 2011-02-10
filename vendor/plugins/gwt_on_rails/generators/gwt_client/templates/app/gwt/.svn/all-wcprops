@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8/trunk/gwt_on_rails/generators/gwt_client/templates/app/gwt
+END
+shell_template.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8/trunk/gwt_on_rails/generators/gwt_client/templates/app/gwt/shell_template.rb
+END
+compile_template.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/8/trunk/gwt_on_rails/generators/gwt_client/templates/app/gwt/compile_template.rb
+END

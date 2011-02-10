@@ -1,0 +1,4 @@
+#!/bin/sh
+APPDIR=`dirname $0`;
+VENDOR_LIBS="$APPDIR/lib/gwt-rest.jar:$APPDIR/lib/gwtx.jar" # append custom entries here
+java -XstartOnFirstThread -cp "$APPDIR/src:$VENDOR_LIBS:$APPDIR/bin:/Users/tom/Desktop/GWT/gwt_rails/gwt-mac-1.4.62//gwt-user.jar:/Users/tom/Desktop/GWT/gwt_rails/gwt-mac-1.4.62//gwt-dev-mac.jar" com.google.gwt.dev.GWTShell -out "/Users/tom/Projects/yacwi/public/gwt" "$@" -noserver -port 3000 view;

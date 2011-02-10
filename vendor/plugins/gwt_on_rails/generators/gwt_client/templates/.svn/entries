@@ -1,0 +1,46 @@
+8
+
+dir
+9
+http://gwt-on-rails.googlecode.com/svn/trunk/gwt_on_rails/generators/gwt_client/templates
+http://gwt-on-rails.googlecode.com/svn
+
+
+
+2008-01-18T07:49:41.603991Z
+8
+jon.r.crosby
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d1f89fe-b242-0410-b76b-e1e574a953e5
+
+app
+dir
+
+POST_GENERATION_REMINDER
+file
+
+
+
+
+2008-06-21T02:51:07.000000Z
+d0e3b4936a833d002fb2c5bb24caa3fa
+2008-01-02T05:44:29.716142Z
+2
+jon.r.crosby
+
+lib
+dir
+

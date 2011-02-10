@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  calendar_id: 1
+  summary: MyString
+  location: MyString
+  notes: MyText
+  start: 2008-06-21 23:07:40
+  end: 2008-06-21 23:07:40
+  uid: MyString
+
+two:
+  calendar_id: 1
+  summary: MyString
+  location: MyString
+  notes: MyText
+  start: 2008-06-21 23:07:40
+  end: 2008-06-21 23:07:40
+  uid: MyString
